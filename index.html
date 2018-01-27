@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="//pche3.github.io/quote_machine/StyleSheet1.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script> $.getScript("https://rawgit.com/pche3/quote_machine/gh-pages/Script1.js", function () {
-			console.log("Success");	
-		});
-		</script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//pche3.github.io/quote_machine/StyleSheet1.css">
+    <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=The+Girl+Next+Door" />
+	<script> $.getScript("https://rawgit.com/pche3/quote_machine/gh-pages/Script1.js", function () {
+		console.log("Success");	
+	});
+	</script>
 	</head>
 
 	<body>
-
 	<main>
-		<div class="container bg_random">
-		  <h1 class="text-center" style="color: white">Quotes To Share</h1>
-			<div class="well center-block">
+		<div class="container bg_random center-block" id="whiteBoard">
+      <h1 class="text-center fontChange">Quotes To Share</h1>
 			  <div class="message">
-				<h4 id="quote"></h4> 
-				<h5 id="quoteAuthor"></h5> 
+          <h4 class="text-center fontChange2">"<span id="quote">Quotes</span>"</h4>
+          <h6 class="fontChange2">- <span id="quoteAuthor">Author</span></h6>
 			  </div>
-			  <div class="row">
-				<div class="col-md-4">
-				  <button class="btn" id ="getQuote"><span>Get Quote</span></button>
-				</div>
+			  <div class="container" id="buttonShake"> 
+        <button class="btn target" id ="getQuote"><span id="btnText">Get Quote</span></button>
 			  </div>  
-			</div>
-			<p class="text-center">I often find a good quote can empower me to start my day strong. Hope this can have the same effect for you.</p>
-		  <h4 class="text-center" style="color: white">Made for enjoyment by: Phong Che</h4>
 		</div>
+    <h4 class="text-center fontChange2" id="bottom">"A good quote can empower my day in a postive way. Let it be the same for you."</h4>
+    <h5 class="text-center fontChange2" id="bottom2">- Phong Che<br> </h5>
+    <h5 class="text-center fontChange" id="bottom3">Quotes power by Forismatic<br></h5>
+    <h5 class="text-center fontChange" id="bottom3">Photos credit to Google </h5>
 	</main>
 	</body>
 </html>

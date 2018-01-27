@@ -1,27 +1,88 @@
-﻿.body {
-  background-color: blue;
+﻿body {
+  background-image: url("https://www.cutpricewallpaper.co.uk/wp-content/uploads/2014/11/FD31284-720x720.jpg");
+  background-size: 600px 600px;
 }
 
-.bg_random {
-  background-color: blue;
+h1 {
+  color: black;
+  padding-top: 50px;
 }
 
-.well { 
-  background-color: white;
-  margin-top:5%;
-  height:auto;
-  width:75%
+#whiteBoard {
+  background-image: url("http://uaw5810.org/wp-content/uploads/2012/12/Whiteboard_Background.png");
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  height:400px;
+  width: 500px;
+  margin-top: 10%;
 }
 
-span { 
+#buttonShake{ 
+  padding-top: 15px;
+}
+
+#btnText {
   color: white;
 }
 
 button {
-  background-color: blue;
+  box-shadow: 5px 5px grey;
+}
+
+span { 
+  color: black;
+}
+
+#getQuote {
+  background-color: black;
+  color: white;
   float: right;
 }
 
 p {
+  color:black;
+  padding-top: 10px;
+}
+
+h4 {
+  color: black;
+  padding-top: 10px;
+}
+
+h6 {
+  text-align:right;
+}
+
+h7 {
   color:white;
+}
+
+.fontChange {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.fontChange2 {
+  font-family: "The Girl Next Door";
+}
+
+#bottom {
+  padding-top: 30px;
+  color: white;
+}
+
+#bottom2 {
+  padding-left: 35%;
+  color: white;
+}
+
+#bottom3 {
+  color: white;
+}
+
+#quote {
+  font-size: 20px;
+}
+
+#quoteAuthor {
+  font-size: 16px;
 }
