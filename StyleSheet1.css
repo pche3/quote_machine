@@ -1,0 +1,27 @@
+﻿.body {
+  background-color: blue;
+}
+
+.bg_random {
+  background-color: blue;
+}
+
+.well { 
+  background-color: white;
+  margin-top:5%;
+  height:auto;
+  width:75%
+}
+
+span { 
+  color: white;
+}
+
+button {
+  background-color: blue;
+  float: right;
+}
+
+p {
+  color:white;
+}
