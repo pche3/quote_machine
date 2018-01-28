@@ -1,7 +1,8 @@
 #quote_machine
 
 <h1>Building a Quote Machine</h1>
-
+<img src="https://github.com/pche3/quote_machine/blob/gh-pages/preview.png" alt="Preview">
+<p> Check it out at: https://pche3.github.io/quote_machine/ <p>
 <h2>Objective</h2>
 Develop a functional and unique app that provides quotes to user.
 
