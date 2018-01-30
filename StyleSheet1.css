@@ -1,4 +1,4 @@
-﻿body {
+body {
   background-image: url("https://www.cutpricewallpaper.co.uk/wp-content/uploads/2014/11/FD31284-720x720.jpg");
   background-size: 600px 600px;
 }
@@ -9,6 +9,14 @@ h1 {
 
 .message {
   padding-top: 30px;
+}
+
+#twitter {
+  color: rgb(138,43,226);
+}
+
+i:hover {
+  color: rgb(29, 161, 242);
 }
 
 #whiteBoard {
@@ -71,7 +79,7 @@ h6 {
   font-size: 16px;
 }
 
-.strokeme { 
+.stroke { 
   color: white;
   text-shadow:
   -1px -1px 0 black,
