@@ -8,7 +8,7 @@ Develop a functional and unique app that provides quotes to user.
 
 <h2>Requirements:</h2>
 User Story: Provide a new random quote with the push of a button.
-User Story: Include a twitter button to tweet the quote using their API.
+<br/>User Story: Include a twitter button to tweet the quote using their API.
 <h2>Implemented using codepen:</h2>
 https://codepen.io/pche3/full/mXbeJX/
 
