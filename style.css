@@ -1,6 +1,6 @@
 body {
-  background-image: url("https://www.cutpricewallpaper.co.uk/wp-content/uploads/2014/11/FD31284-720x720.jpg");
-  background-size: 600px 600px;
+  background-image: url("brick_wall.jpg");
+  background-size: 700px 700px;
 }
 
 h1 {
@@ -20,11 +20,11 @@ i:hover {
 }
 
 #whiteBoard {
-  background-image: url("http://uaw5810.org/wp-content/uploads/2012/12/Whiteboard_Background.png");
+  background-image: url("whiteboard.png");
   background-repeat: no-repeat;
-  background-size: 500px 400px;
-  height:400px;
-  width: 500px;
+  background-size: 800px 500px;
+  height: 500px;
+  width: 800px;
   margin-top: 10%;
 }
 
@@ -91,4 +91,21 @@ h6 {
 .purpleText { 
   color: rgb(138,43,226);
     
+}
+
+.share_heading {
+  padding-top: 100px; 
+  padding-right: 200px;
+}
+
+.quotes_format {
+  margin: 0 200px;
+}
+
+.author_format {
+  margin: 25px 200px;
+}
+
+.eraser_format {
+  padding: 0px 150px;
 }

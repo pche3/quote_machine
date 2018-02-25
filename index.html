@@ -4,31 +4,32 @@
 	<head>
 	    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	    	<link rel="stylesheet" href="//pche3.github.io/quote_machine/StyleSheet1.css">
+	    	<link rel="stylesheet" href="style.css">
 	    	<script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
 	    	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=The+Girl+Next+Door" />
 	    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<script> $.getScript("https://rawgit.com/pche3/quote_machine/gh-pages/Script1.js", function () {}); </script> 
+		
 	</head>
 
 	<body>
 	<main>
 		<div class="container center-block" id="whiteBoard">
-			<h1 class="text-center fontChange purpleText">Quotes To Share
+			<h1 class="text-center fontChange purpleText share_heading" >Quotes To Share
         		<a class="" id="twitter" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
       			</h1>
 			<div class="message">
-				<h4 class="text-center fontChange2 purpleText">"<span class="purpleText" id="quote">Quotes</span>"</h4>
-				<h6 class="fontChange2 purpleText">- <span class="purpleText" id="quoteAuthor">Author</span></h6>
+				<h4 class="text-center fontChange2 purpleText quotes_format">"<span class="purpleText" id="quote">Quotes</span>"</h4>
+				<h6 class="fontChange2 purpleText author_format">- <span class="purpleText" id="quoteAuthor">Author</span></h6>
 			</div>
-			<div class="container" id="buttonShake"> 
+			<div class="container eraser_format"  id="buttonShake"> 
 				<button class="btn" id ="getQuote"><span id="btnText">Get Quote</span></button>
 			</div>  
 		</div>
 		<h4 class="text-center fontChange2 stroke" id="bottom">"A good quote can empower my day in a postive way. Let it be the same for you."</h4>
-		<h5 class="text-center fontChange2 stroke" id="bottom2">- Phong Che<br> </h5>
+		<h5 class="text-center fontChange2 stroke" id="bottom2">- <a target="_blank" href="http://www.phongche.com">Phong Che</a><br> </h5>
 		<h5 class="text-center fontChange stroke">Quotes powered by Forismatic<br></h5>
-		<h5 class="text-center fontChange stroke">Photos credited to Google </h5>
+		<h5 class="text-center fontChange stroke">Photos credited to Pixabay </h5>
 	</main>
+	<script> $.getScript("script.js", function () {}); </script> 
 	</body>
 </html>
