@@ -1,6 +1,7 @@
 #quote_machine
 
 <h1>Building a Quote Machine</h1>
+<<<<<<< HEAD
 <img src="picture_preview" alt="Preview">
 <p> Check it out at: https://pche3.github.io/quote_machine/ <p>
 <h2>Objective</h2>
