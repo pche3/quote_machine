@@ -1,0 +1,111 @@
+body {
+  background-image: url("brick_wall.jpg");
+  background-size: 700px 700px;
+}
+
+h1 {
+  padding-top: 50px;
+}
+
+.message {
+  padding-top: 30px;
+}
+
+#twitter {
+  color: rgb(138,43,226);
+}
+
+i:hover {
+  color: rgb(29, 161, 242);
+}
+
+#whiteBoard {
+  background-image: url("whiteboard.png");
+  background-repeat: no-repeat;
+  background-size: 800px 500px;
+  height: 500px;
+  width: 800px;
+  margin-top: 10%;
+}
+
+#buttonShake{ 
+  padding-top: 15px;
+}
+
+#btnText {
+  color: white;
+}
+
+button {
+  box-shadow: 5px 5px grey;
+}
+
+#getQuote {
+  background-color: black;
+  color: white;
+  float: right;
+}
+
+h4 {
+  color: black;
+  padding-top: 10px;
+}
+
+h6 {
+  text-align:right;
+}
+
+.fontChange {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.fontChange2 {
+  font-family: "The Girl Next Door";
+}
+
+#bottom {
+  padding-top: 30px;
+}
+
+#bottom2 {
+  padding-left: 35%;
+}
+
+#quote {
+  font-size: 20px;
+}
+
+#quoteAuthor {
+  font-size: 16px;
+}
+
+.stroke { 
+  color: white;
+  text-shadow:
+  -1px -1px 0 black,
+  1px -1px 0 black,
+  -1px 1px 0 black,
+  1px 1px 0 black;  
+}
+
+.purpleText { 
+  color: rgb(138,43,226);
+    
+}
+
+.share_heading {
+  padding-top: 100px; 
+  padding-right: 200px;
+}
+
+.quotes_format {
+  margin: 0 200px;
+}
+
+.author_format {
+  margin: 25px 200px;
+}
+
+.eraser_format {
+  padding: 0px 150px;
+}
